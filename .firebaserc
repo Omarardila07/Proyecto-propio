@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "dist"
+  },
+  "targets": {
+    "nombre-de-tu-proyecto": {
+      "hosting": {
+        "nombre-del-sitio": [
+          "dist"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
