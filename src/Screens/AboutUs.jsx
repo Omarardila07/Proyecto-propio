@@ -1,9 +1,6 @@
 import img1 from '../Img/img1.jpeg'
 import misi from '../Img/misi.png'
 import visi from '../Img/visi.png'
-import '../resolucion/lapto.css'
-import '../resolucion/tablet.css'
-import '../resolucion/movil.css'
 
 const About = () => {
     return (
