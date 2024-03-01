@@ -9,22 +9,22 @@ import LoginPopup from "./LoginPopup";
 const links = [
   {
     link: "/",
-    text: "home",
+    text: "Casa",
     id: "1",
   },
   {
     link: "/about",
-    text: "About Us",
+    text: "Quien soy ?",
     id: "2",
   },
   {
     link: "/contact",
-    text: "Contact",
+    text: "Contacto",
     id: "3",
   },
   {
-    link: "/page",
-    text: "Pages",
+    link: "/Votaciones",
+    text: "Vota aqui",
     id: "4",
   },
 ];
