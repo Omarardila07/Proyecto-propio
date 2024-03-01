@@ -38,11 +38,7 @@ const Card = ({ imageSrc, name, isSelected, onVote, onCancelVote, name1, votes, 
         )}
         <br />
         <br />
-<<<<<<< HEAD
         <h1 className="text-lg font-semibold text-gray-100">Votos = {votes || 0}</h1>
-=======
-        <h1 className="text-lg font-semibold">Votos = {votes || 0}</h1>
->>>>>>> f6815efd026c7a8274d824a7178310cd1a1ac4c7
       </div>
     </div>
   );
@@ -149,7 +145,7 @@ const Pages = () => {
           <div>
             <h1 className="text-white font-semibold text-[45px]">
               Hola, ¿por quién vas a votar en estas elecciones 2024 en el Cesar
-              Pompeyo Mendoza Hinojoza?
+              Pompeyo Mendoza Hinojoza.?
             </h1>
           </div>
           <br />
@@ -266,8 +262,4 @@ const Pages = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Pages;
-=======
-export default Pages;
->>>>>>> f6815efd026c7a8274d824a7178310cd1a1ac4c7
