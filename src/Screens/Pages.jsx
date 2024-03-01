@@ -144,7 +144,7 @@ const Pages = () => {
         <div className="w-[45%] text-center font-sans">
           <div>
             <h1 className="text-white font-semibold text-[45px]">
-              Hola, ¿por quién vas a votar en estas elecciones 2024 en el Cesar
+              Hola, ¿Por quién vas a votar en estas elecciones 2024 en el Cesar
               Pompeyo Mendoza Hinojoza.?
             </h1>
           </div>
@@ -262,8 +262,5 @@ const Pages = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Pages;
-=======
-export default Pages;
->>>>>>> 81cbb43d16f0247fb6d35a812b8a6ada90f8ba7a
+
