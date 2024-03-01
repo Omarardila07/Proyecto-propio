@@ -38,7 +38,11 @@ const Card = ({ imageSrc, name, isSelected, onVote, onCancelVote, name1, votes, 
         )}
         <br />
         <br />
+<<<<<<< HEAD
         <h1 className="text-lg font-semibold text-gray-100">Votos = {votes || 0}</h1>
+=======
+        <h1 className="text-lg font-semibold">Votos = {votes || 0}</h1>
+>>>>>>> f6815efd026c7a8274d824a7178310cd1a1ac4c7
       </div>
     </div>
   );
@@ -262,4 +266,8 @@ const Pages = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Pages;
+=======
+export default Pages;
+>>>>>>> f6815efd026c7a8274d824a7178310cd1a1ac4c7
