@@ -164,7 +164,7 @@ const Pages = () => {
       {popupOpen && (
         <div className="fixed inset-0 flex justify-center itemsm-center bg-black bg-opacity-50 ">
           <div className="bg-green-500 p-8 rounded-3xl">
-            <h1 className="text-center text-xl font-semibold mb-4 text-white ">
+            <h1 className="text-center text-[23px] font-semibold mb-4 text-white ">
               Elige a tu candidato de personería 2024
             </h1>
             <div className="grid grid-cols-4 gap-4 ">
@@ -208,15 +208,15 @@ const Pages = () => {
                 votes={votes["voto en blanco personeria"]}
               />
             </div>
-            <h1 className="text-center text-xl font-semibold mb-4 text-white mt-4 ">
+            <h1 className="text-center text-[23px] font-semibold mb-4 text-white mt-4 ">
               Elige a tu candidato de Contraloría 2024
             </h1>
             <div className="grid grid-cols-4 gap-4 ">
               <Card
                 imageSrc={imgC01}
                 name="Candidato C04"
-                namee="Candidato"
-                name1="04"
+                namee="Contraloría"
+                name1="01"
                 isSelected={selectedContraloria === "Candidato C04"}
                 onVote={handleContraloriaVote}
                 onCancelVote={handleContraloriaVote}
@@ -225,8 +225,8 @@ const Pages = () => {
               <Card
                 imageSrc={imgC02}
                 name="Candidato C05"
-                namee="Candidato"
-                name1="05"
+                namee="Contraloría"
+                name1="02"
                 isSelected={selectedContraloria === "Candidato C05"}
                 onVote={handleContraloriaVote}
                 onCancelVote={handleContraloriaVote}
@@ -235,8 +235,8 @@ const Pages = () => {
               <Card
                 imageSrc={imgC03}
                 name="Candidato C06"
-                namee="Candidato"
-                name1="06"
+                namee="Contraloría"
+                name1="03"
                 isSelected={selectedContraloria === "Candidato C06"}
                 onVote={handleContraloriaVote}
                 onCancelVote={handleContraloriaVote}
