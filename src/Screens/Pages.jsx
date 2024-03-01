@@ -262,4 +262,8 @@ const Pages = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Pages;
+=======
+export default Pages;
+>>>>>>> 81cbb43d16f0247fb6d35a812b8a6ada90f8ba7a
