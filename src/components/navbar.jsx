@@ -1,4 +1,3 @@
-// NavBar.jsx
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -7,6 +6,7 @@ import Loginico from "../icons/login";
 import LoginPopup from "./LoginPopup";
 
 const links = [
+  
   {
     link: "/",
     text: "Casa",
@@ -23,8 +23,8 @@ const links = [
     id: "3",
   },
   {
-    link: "/Votaciones",
-    text: "Vota aqui",
+    link: "/IntercusosEnVivo",
+    text: "Intercursos",
     id: "4",
   },
 ];
@@ -83,7 +83,7 @@ const NavBar = () => {
       {windowsDimension.innerWidth > 768
         ? links.map((l) => (
             <Link
-              className="text-xl text-white font-semibold p-1 rounded  hover:bg-white  hover:text-green-600 "
+              className="text-xl text-white font-semibold p-1 rounded  hover:bg-white  hover:text-green-600 transition duration-500 ease-in-out  "
               to={l.link}
               key={l.id}
               onClick={closeMenu}

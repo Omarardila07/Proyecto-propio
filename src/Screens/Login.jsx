@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { GoogleAuthPopUp } from '../Firebase/loginGoo'
-import { FacebookAuthPopUp } from '../Firebase/face'
+import { GoogleAuthPopUp } from '../Firebase/loginGoo';
+import { FacebookAuthPopUp } from '../Firebase/face';
 import GoogleIcon from '../icons/google';
 import FacebookIcon from '../icons/Face';
 
@@ -17,6 +17,8 @@ const Login = () => {
       console.error('Error de autenticación:', error.message);
     }
   };
+
+
 
   return (
     <div className="flex justify-center items-center overflow-hidden h-screen">

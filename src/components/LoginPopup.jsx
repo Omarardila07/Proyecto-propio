@@ -10,12 +10,10 @@ const LoginPopup = ({ onClose }) => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    // Agrega una pequeña demora para permitir la transición CSS
     const timeout = setTimeout(() => {
       setIsActive(true);
     }, 50);
 
-    // Limpia el timeout al desmontar el componente
     return () => clearTimeout(timeout);
   }, []);
 
